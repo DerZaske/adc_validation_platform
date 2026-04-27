@@ -5,6 +5,278 @@
 	(uuid "a9799a1a-e989-4ead-a33e-c5edd2ca2439")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Operational:MCP6002-xSN"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP6002-xSN"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCP6002-xSN_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6002-xSN_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6002-xSN_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Analog_ADC:MCP3208"
 			(pin_names
 				(offset 1.016)
@@ -484,6 +756,201 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DIY-Power-PCB:691313510002"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -4.99 -1.205 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 0.8636)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" ""
+				(at -4.95 -3.01 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 0.8636)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "Connector_Wuerth2:691313510002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "WR-TBL Serie 313 - 5.08 mm Close Horizontal PCB Header\n\nKIND PROPERTIES\n\nPitch 5.08 mm\n\nMATERIAL PROPERTIES\n\nInsulator Material PA66\nInsulator Flammability Rating UL94 V-0\nInsulator Color Green\nContact Material Brass\nContact Plating Tin\n\nGENERAL INFORMATION\n\nOperating Temperature -40 up to +105 °C\n\nELECTRICAL PROPERTIES\n\nIR cULus 20 A\nIR VDE 20 A\nWorking Voltage [cULus] 300 V (AC)\nWorking Voltage [VDE] 300 V (AC)\nWithstanding Voltage [cULus] 1600 V (AC)\nWithstanding Voltage [VDE] 2500 V (AC)\nContact Resistance [cULus] 20 mΩ\nContact Resistance [VDE] 20 mΩ\n\nCERTIFICATION\n\ncULus Approval E315414\nVDE Approval 40023195 [Model number 313]\n\nhttps://www.we-online.com/catalog/media/o33265v209%20Family_WR-TBL_6913135100xx.jpg\n\nhttps://www.we-online.com/catalog/en/TBL_5_08_313_CLOSE_HORIZONTAL_PCB_HEADER_6913135100XX/\n\nUpdated by Ella Wu  2019-12-26\n2022(C) Wurth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "691313510002_1_0"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1369,10 +1836,739 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Shunt"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Shunt"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Shunt resistor with Kelvin connections"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res shunt resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*Shunt*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Shunt_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Shunt_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Logic_LevelTranslator:TXB0108PW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TXB0108PW"
+				(at 3.81 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "bidirectional voltage level translator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x6.5mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TXB0108PW_0_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -2.54 -1.016) (xy -2.54 0) (xy -4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy 1.016 0) (xy 1.016 -2.032) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy -0.762 0) (xy -0.762 2.032) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.794 1.016) (xy 2.794 0) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0) (xy 2.794 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TXB0108PW_1_1"
+				(pin bidirectional line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 17.78 270)
+					(length 2.54)
+					(name "V_{CCA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 17.78 270)
+					(length 2.54)
+					(name "V_{CCB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(symbol
 		(lib_id "DIY-Power-PCB:ESP_WROOM-32_CH340C_Exinko")
-		(at 232.41 77.47 0)
+		(at 251.46 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1383,7 +2579,7 @@
 		(fields_autoplaced yes)
 		(uuid "01171969-fe5f-4bfe-b034-85a547331cd0")
 		(property "Reference" "U3"
-			(at 232.41 52.07 0)
+			(at 251.46 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1393,7 +2589,7 @@
 			)
 		)
 		(property "Value" "ESP WROOM-32 CH340C Exinko"
-			(at 232.41 54.61 0)
+			(at 251.46 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1403,7 +2599,7 @@
 			)
 		)
 		(property "Footprint" "PowerPCB:ESP-32 DIP30"
-			(at 252.984 99.568 0)
+			(at 272.034 88.138 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1415,7 +2611,7 @@
 			)
 		)
 		(property "Datasheet" "https://de.aliexpress.com/item/1005007117977294.html?spm=a2g0o.productlist.main.5.c1b4R6jkR6jkUR&algo_pvid=c28d9a0d-23d8-4d26-b6ce-44cba8a66e79&algo_exp_id=c28d9a0d-23d8-4d26-b6ce-44cba8a66e79-2&pdp_npi=4%40dis%21EUR%213.99%213.99%21%21%214.31%214.31%21%40210385db17254801048593308e4307%2112000039458146172%21sea%21DE%212766904430%21X&curPageLogUid=je5LeixjUh6D&utparam-url=scene%3Asearch%7Cquery_from%3A#nav-specification"
-			(at 252.73 102.362 0)
+			(at 271.78 90.932 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1427,7 +2623,7 @@
 			)
 		)
 		(property "Description" "ESP32 WROOM-32 ESP32-S Development Board WiFi+Bluetooth uyumlu TYPE-C ESP32 30Pin ESP32 Nodemcu Development Module"
-			(at 234.95 80.01 0)
+			(at 254 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1537,8 +2733,270 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xSN")
+		(at 120.65 138.43 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33e9e213-caf6-4f13-add6-124cb2afae5c")
+		(property "Reference" "U2"
+			(at 120.65 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xSN"
+			(at 120.65 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+			(at 120.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad731815-94aa-4c7a-be01-3144f87d9e1f")
+		)
+		(pin "1"
+			(uuid "2d2e8966-434b-4c33-8e03-e8bb511fabc9")
+		)
+		(pin "6"
+			(uuid "6743dd58-9fd0-4741-b0eb-da8e3818be2f")
+		)
+		(pin "8"
+			(uuid "ca93b9a7-5ca0-4e8d-b222-cf9a07a5565e")
+		)
+		(pin "5"
+			(uuid "5d459386-647b-4617-9b50-33cbaea0ef5a")
+		)
+		(pin "3"
+			(uuid "c8856d93-098f-49da-b92d-6765a26e3129")
+		)
+		(pin "4"
+			(uuid "16e585a0-5e1a-4d18-830d-31288e844572")
+		)
+		(pin "7"
+			(uuid "2e5af9cd-71d5-465d-9767-faaa2bfb59e5")
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/a9799a1a-e989-4ead-a33e-c5edd2ca2439"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DIY-Power-PCB:691313510002")
+		(at 44.45 64.77 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37c3171b-e8f8-4129-be35-a86278e25f6e")
+		(property "Reference" "J2"
+			(at 43.18 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 47.46 59.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Connector_Wuerth2:691313510002"
+			(at 44.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WR-TBL Serie 313 - 5.08 mm Close Horizontal PCB Header\n\nKIND PROPERTIES\n\nPitch 5.08 mm\n\nMATERIAL PROPERTIES\n\nInsulator Material PA66\nInsulator Flammability Rating UL94 V-0\nInsulator Color Green\nContact Material Brass\nContact Plating Tin\n\nGENERAL INFORMATION\n\nOperating Temperature -40 up to +105 °C\n\nELECTRICAL PROPERTIES\n\nIR cULus 20 A\nIR VDE 20 A\nWorking Voltage [cULus] 300 V (AC)\nWorking Voltage [VDE] 300 V (AC)\nWithstanding Voltage [cULus] 1600 V (AC)\nWithstanding Voltage [VDE] 2500 V (AC)\nContact Resistance [cULus] 20 mΩ\nContact Resistance [VDE] 20 mΩ\n\nCERTIFICATION\n\ncULus Approval E315414\nVDE Approval 40023195 [Model number 313]\n\nhttps://www.we-online.com/catalog/media/o33265v209%20Family_WR-TBL_6913135100xx.jpg\n\nhttps://www.we-online.com/catalog/en/TBL_5_08_313_CLOSE_HORIZONTAL_PCB_HEADER_6913135100XX/\n\nUpdated by Ella Wu  2019-12-26\n2022(C) Wurth Elektronik"
+			(at 44.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bf92d0ea-bd9b-404b-a13b-d46c1bf9db86")
+		)
+		(pin "1"
+			(uuid "c367b30f-48d4-481f-855a-c3be3d175e35")
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/a9799a1a-e989-4ead-a33e-c5edd2ca2439"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DIY-Power-PCB:691313510002")
+		(at 44.45 41.91 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e418c2d-a75e-4de3-9569-96a577498751")
+		(property "Reference" "J1"
+			(at 43.18 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 47.46 36.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Connector_Wuerth2:691313510002"
+			(at 44.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WR-TBL Serie 313 - 5.08 mm Close Horizontal PCB Header\n\nKIND PROPERTIES\n\nPitch 5.08 mm\n\nMATERIAL PROPERTIES\n\nInsulator Material PA66\nInsulator Flammability Rating UL94 V-0\nInsulator Color Green\nContact Material Brass\nContact Plating Tin\n\nGENERAL INFORMATION\n\nOperating Temperature -40 up to +105 °C\n\nELECTRICAL PROPERTIES\n\nIR cULus 20 A\nIR VDE 20 A\nWorking Voltage [cULus] 300 V (AC)\nWorking Voltage [VDE] 300 V (AC)\nWithstanding Voltage [cULus] 1600 V (AC)\nWithstanding Voltage [VDE] 2500 V (AC)\nContact Resistance [cULus] 20 mΩ\nContact Resistance [VDE] 20 mΩ\n\nCERTIFICATION\n\ncULus Approval E315414\nVDE Approval 40023195 [Model number 313]\n\nhttps://www.we-online.com/catalog/media/o33265v209%20Family_WR-TBL_6913135100xx.jpg\n\nhttps://www.we-online.com/catalog/en/TBL_5_08_313_CLOSE_HORIZONTAL_PCB_HEADER_6913135100XX/\n\nUpdated by Ella Wu  2019-12-26\n2022(C) Wurth Elektronik"
+			(at 44.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d48811f4-bc0f-4e2c-bbf9-9fa49fb1b87f")
+		)
+		(pin "1"
+			(uuid "00661919-7e77-4581-9923-02abc5d261bb")
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/a9799a1a-e989-4ead-a33e-c5edd2ca2439"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Analog_ADC:MCP3208")
-		(at 147.32 83.82 0)
+		(at 157.48 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1549,7 +3007,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d82f140-05db-4b04-9c97-eed17ad0e6b5")
 		(property "Reference" "U1"
-			(at 154.5433 68.58 0)
+			(at 164.7033 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1560,7 +3018,7 @@
 			)
 		)
 		(property "Value" "MCP3208"
-			(at 154.5433 71.12 0)
+			(at 164.7033 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1571,7 +3029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 81.28 0)
+			(at 160.02 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1582,7 +3040,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf"
-			(at 149.86 81.28 0)
+			(at 160.02 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,7 +3051,7 @@
 			)
 		)
 		(property "Description" "A/D Converter, 12-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"
-			(at 147.32 83.82 0)
+			(at 157.48 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1661,8 +3119,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xSN")
+		(at 120.65 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5911a967-3831-4078-9c33-28f6c4d1b9d8")
+		(property "Reference" "U2"
+			(at 120.65 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xSN"
+			(at 120.65 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 120.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+			(at 120.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad731815-94aa-4c7a-be01-3144f87d9e1f")
+		)
+		(pin "1"
+			(uuid "2d2e8966-434b-4c33-8e03-e8bb511fabc9")
+		)
+		(pin "6"
+			(uuid "6743dd58-9fd0-4741-b0eb-da8e3818be2f")
+		)
+		(pin "8"
+			(uuid "ca93b9a7-5ca0-4e8d-b222-cf9a07a5565e")
+		)
+		(pin "5"
+			(uuid "5d459386-647b-4617-9b50-33cbaea0ef5a")
+		)
+		(pin "3"
+			(uuid "c8856d93-098f-49da-b92d-6765a26e3129")
+		)
+		(pin "4"
+			(uuid "16e585a0-5e1a-4d18-830d-31288e844572")
+		)
+		(pin "7"
+			(uuid "2e5af9cd-71d5-465d-9767-faaa2bfb59e5")
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/a9799a1a-e989-4ead-a33e-c5edd2ca2439"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DIY-Power-PCB:ACS712xLCTR-20AB-Sensor_Current")
-		(at 91.44 58.42 0)
+		(at 81.28 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1673,7 +3229,7 @@
 		(fields_autoplaced yes)
 		(uuid "651e8aea-2c89-48b5-bdea-ef07476e7af1")
 		(property "Reference" "U4"
-			(at 93.5833 45.72 0)
+			(at 83.4233 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1684,7 +3240,7 @@
 			)
 		)
 		(property "Value" "ACS712_20A"
-			(at 93.5833 48.26 0)
+			(at 83.4233 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1695,7 +3251,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 93.98 67.31 0)
+			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,7 +3264,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en"
-			(at 91.44 58.42 0)
+			(at 81.28 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1719,7 +3275,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 58.42 0)
+			(at 81.28 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1763,8 +3319,178 @@
 		)
 	)
 	(symbol
+		(lib_id "DIY-Power-PCB:691313510002")
+		(at 44.45 120.65 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e7b87d1-4582-49b8-b1e6-d82ff0128e29")
+		(property "Reference" "J4"
+			(at 43.18 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 47.46 115.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Connector_Wuerth2:691313510002"
+			(at 44.45 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WR-TBL Serie 313 - 5.08 mm Close Horizontal PCB Header\n\nKIND PROPERTIES\n\nPitch 5.08 mm\n\nMATERIAL PROPERTIES\n\nInsulator Material PA66\nInsulator Flammability Rating UL94 V-0\nInsulator Color Green\nContact Material Brass\nContact Plating Tin\n\nGENERAL INFORMATION\n\nOperating Temperature -40 up to +105 °C\n\nELECTRICAL PROPERTIES\n\nIR cULus 20 A\nIR VDE 20 A\nWorking Voltage [cULus] 300 V (AC)\nWorking Voltage [VDE] 300 V (AC)\nWithstanding Voltage [cULus] 1600 V (AC)\nWithstanding Voltage [VDE] 2500 V (AC)\nContact Resistance [cULus] 20 mΩ\nContact Resistance [VDE] 20 mΩ\n\nCERTIFICATION\n\ncULus Approval E315414\nVDE Approval 40023195 [Model number 313]\n\nhttps://www.we-online.com/catalog/media/o33265v209%20Family_WR-TBL_6913135100xx.jpg\n\nhttps://www.we-online.com/catalog/en/TBL_5_08_313_CLOSE_HORIZONTAL_PCB_HEADER_6913135100XX/\n\nUpdated by Ella Wu  2019-12-26\n2022(C) Wurth Elektronik"
+			(at 44.45 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6a6f6e5c-d31e-4741-aa7d-840f39cf8ecf")
+		)
+		(pin "1"
+			(uuid "9791c4bc-1296-4e70-b76e-0883ff28ac98")
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/a9799a1a-e989-4ead-a33e-c5edd2ca2439"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Shunt")
+		(at 80.01 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b00fd869-1124-4a0f-bdff-be3356feb55a")
+		(property "Reference" "R1"
+			(at 77.47 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Shunt"
+			(at 77.47 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.232 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shunt resistor with Kelvin connections"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7978acaa-66f0-4d9d-a63c-af6e956dee1a")
+		)
+		(pin "4"
+			(uuid "67cc1482-d284-4f60-ac13-b0e909153d67")
+		)
+		(pin "2"
+			(uuid "ba786c6c-745f-4b68-a012-e5cd5203c0fd")
+		)
+		(pin "1"
+			(uuid "32828c7f-3961-4901-bbc8-d2c2f1eedd65")
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/a9799a1a-e989-4ead-a33e-c5edd2ca2439"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DIY-Power-PCB:ACS712xLCTR-20AB-Sensor_Current")
-		(at 91.44 83.82 0)
+		(at 81.28 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1775,7 +3501,7 @@
 		(fields_autoplaced yes)
 		(uuid "c51a7784-a1e9-4c70-82b7-68dc00944625")
 		(property "Reference" "U5"
-			(at 93.5833 71.12 0)
+			(at 83.4233 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1786,7 +3512,7 @@
 			)
 		)
 		(property "Value" "ACS712_20A"
-			(at 93.5833 73.66 0)
+			(at 83.4233 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1797,7 +3523,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 93.98 92.71 0)
+			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1810,7 +3536,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en"
-			(at 91.44 83.82 0)
+			(at 81.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1821,7 +3547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 83.82 0)
+			(at 81.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1866,7 +3592,7 @@
 	)
 	(symbol
 		(lib_id "DIY-Power-PCB:ACS712xLCTR-20AB-Sensor_Current")
-		(at 96.52 109.22 0)
+		(at 81.28 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1877,7 +3603,7 @@
 		(fields_autoplaced yes)
 		(uuid "e69631f6-2005-4228-965a-cb2b342e2631")
 		(property "Reference" "U6"
-			(at 98.6633 96.52 0)
+			(at 83.4233 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1888,7 +3614,7 @@
 			)
 		)
 		(property "Value" "ACS712_20A"
-			(at 98.6633 99.06 0)
+			(at 83.4233 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1899,7 +3625,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 99.06 118.11 0)
+			(at 83.82 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1912,7 +3638,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en"
-			(at 96.52 109.22 0)
+			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1923,7 +3649,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 109.22 0)
+			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1961,6 +3687,224 @@
 			(project "AD-Wandler-Validation-Board"
 				(path "/a9799a1a-e989-4ead-a33e-c5edd2ca2439"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DIY-Power-PCB:691313510002")
+		(at 45.72 92.71 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec3b015f-20d6-40eb-9d44-c70256afc0b5")
+		(property "Reference" "J3"
+			(at 44.45 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 48.73 87.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Connector_Wuerth2:691313510002"
+			(at 45.72 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WR-TBL Serie 313 - 5.08 mm Close Horizontal PCB Header\n\nKIND PROPERTIES\n\nPitch 5.08 mm\n\nMATERIAL PROPERTIES\n\nInsulator Material PA66\nInsulator Flammability Rating UL94 V-0\nInsulator Color Green\nContact Material Brass\nContact Plating Tin\n\nGENERAL INFORMATION\n\nOperating Temperature -40 up to +105 °C\n\nELECTRICAL PROPERTIES\n\nIR cULus 20 A\nIR VDE 20 A\nWorking Voltage [cULus] 300 V (AC)\nWorking Voltage [VDE] 300 V (AC)\nWithstanding Voltage [cULus] 1600 V (AC)\nWithstanding Voltage [VDE] 2500 V (AC)\nContact Resistance [cULus] 20 mΩ\nContact Resistance [VDE] 20 mΩ\n\nCERTIFICATION\n\ncULus Approval E315414\nVDE Approval 40023195 [Model number 313]\n\nhttps://www.we-online.com/catalog/media/o33265v209%20Family_WR-TBL_6913135100xx.jpg\n\nhttps://www.we-online.com/catalog/en/TBL_5_08_313_CLOSE_HORIZONTAL_PCB_HEADER_6913135100XX/\n\nUpdated by Ella Wu  2019-12-26\n2022(C) Wurth Elektronik"
+			(at 45.72 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88df2651-48c2-4e17-a57b-fcbc2a2305b1")
+		)
+		(pin "1"
+			(uuid "1dd8aeda-42bd-46fe-90f9-349c18b7c6f1")
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/a9799a1a-e989-4ead-a33e-c5edd2ca2439"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logic_LevelTranslator:TXB0108PW")
+		(at 200.66 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee395077-e892-4678-acda-8255a5e59450")
+		(property "Reference" "U7"
+			(at 202.8033 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXB0108PW"
+			(at 202.8033 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 200.66 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+			(at 200.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+			(at 200.66 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "26ced0a3-c2a4-47b5-ac55-c18570626f5b")
+		)
+		(pin "12"
+			(uuid "7429e410-0990-4479-b7cb-a3423d0e52d2")
+		)
+		(pin "4"
+			(uuid "6e7a9d8b-575b-4275-80e0-ef90aabc8874")
+		)
+		(pin "5"
+			(uuid "fce5eae0-f689-42dc-a527-c629c0d9c12a")
+		)
+		(pin "19"
+			(uuid "7d45539a-0244-407a-b066-56eecaeed5a9")
+		)
+		(pin "10"
+			(uuid "12fe4750-4b28-4090-b923-a913050c9267")
+		)
+		(pin "7"
+			(uuid "e9d26fda-c021-4e85-b2c8-ceb18113b702")
+		)
+		(pin "2"
+			(uuid "32f0ef8b-2d1f-4d99-b604-3d0f0ca4aca5")
+		)
+		(pin "1"
+			(uuid "1d03ae42-2527-4907-9d94-6e288188b491")
+		)
+		(pin "13"
+			(uuid "816a59c5-451f-427e-97c0-f36ef6b3bb02")
+		)
+		(pin "14"
+			(uuid "101f49ec-cf5c-46cf-82ca-46a35a004194")
+		)
+		(pin "3"
+			(uuid "8e549975-fde6-473b-897f-a5c1b5db23bb")
+		)
+		(pin "8"
+			(uuid "502eee39-9fc7-4cb0-89e8-9a639b07c8b4")
+		)
+		(pin "11"
+			(uuid "bb43dff9-4405-459f-9d96-228d9182b3ac")
+		)
+		(pin "6"
+			(uuid "0df3e1fa-5d31-4ab0-aeb6-75c2a483abc0")
+		)
+		(pin "20"
+			(uuid "a85b19cd-1950-4cd2-9127-d04586897305")
+		)
+		(pin "18"
+			(uuid "5fa64b21-8f2c-46ed-9f93-07106a264382")
+		)
+		(pin "15"
+			(uuid "35f4833d-ac6f-4b81-93ce-169035ca255d")
+		)
+		(pin "16"
+			(uuid "ff1fbcfe-ae88-4893-bd03-388172610280")
+		)
+		(pin "17"
+			(uuid "2163c3c1-072c-49bb-a19a-6f27f773edfe")
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/a9799a1a-e989-4ead-a33e-c5edd2ca2439"
+					(reference "U7")
 					(unit 1)
 				)
 			)
