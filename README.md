@@ -8,18 +8,18 @@
 ---
 
 ## 📌 Overview
-This repository provides **design files, firmware, and validation tools** for a custom **ADC validation board**, developed as an extension to my **Bachelor’s thesis** on the ["DIY Power PCB"](link-to-pdf) (HTWG Konstanz, 2024). While the original thesis used the **ESP32’s internal ADC** (limited by nonlinearity and noise), this platform focuses on:
+This repository provides **design files, firmware, and validation tools** for a custom **ADC validation board**, developed as an extension to my **Bachelor’s thesis** the ["DIY Power PCB"](link-to-pdf) (HTWG Konstanz, 2025). While the original thesis used the **ESP32’s internal ADC** (limited by nonlinearity and noise), this platform focuses on:
 
 ### **Core Objectives**
 1. **External ADC Validation**:
-   - Replace the ESP32’s internal ADC with a **MCP3208/MCP3008** (12-bit, 8-channel) to quantify improvements in **noise floor, linearity, and temperature stability** for current measurements.
+   - Replace the ESP32’s internal ADC with a **MCP3208/MCP3008** (12/10-bit, 8-channel) to quantify improvements in **noise floor, linearity, and temperature stability** for current measurements.
    - *Key question*: Does an external ADC justify the added complexity/cost in motor control applications?
 
 2. **Full Analog Chain Analysis**:
    - Evaluate the **entire signal path**:
-     - **Shunt-based current sensing** (bridge currents)
-     - **Operational amplifiers** (e.g., [OPV model]) for signal conditioning
-     - **High-end current sensors** (e.g., [ACS71231, INA240]) as alternatives to shunts
+     - **Shunt-based current sensing + Operational amplifier** (e.g. [MCP6002], [TLV906],...)
+     - **Phase current sensors** (e.g., [ACS712], [ACS723]...)
+     - **Inputvoltage sensing** (voltage divider)
    - *Goal*: Identify the **weakest link** in the chain (ADC vs. sensors vs. OPVs) and optimize cost/performance trade-offs.
 
 3. **BLDC Motor Control Context**:
@@ -41,8 +41,8 @@ This repository provides **design files, firmware, and validation tools** for a 
   - [MCU Model, e.g., STM32F4] for data acquisition
   - Low-noise power supply and signal conditioning
 - **Firmware:**
-  - Written in **C/C++** using [ESP-IDF/PlatformIO/Arduino]
-  - Supports **I2C/SPI communication** and **PWM calibration**
+  - Written in **C/C++** using [ESP-IDF]
+  - Supports **SPI communication** and **PWM calibration**
 - **Validation:**
   - Automated test scripts (Python)
   - Noise floor analysis and linearity plots
@@ -69,7 +69,6 @@ adc-validation-board/
 - **Hardware:** [List components, e.g., ADC chip, MCU, power supply]
 - **Software:**
   - [KiCad](https://www.kicad.org/) for PCB design
-  - [PlatformIO](https://platformio.org/) for firmware development
   - Python 3.8+ for test scripts
 
 ### Installation
