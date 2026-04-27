@@ -1,0 +1,192 @@
+(footprint "691313510002"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WR-TBL Serie 313 - 5.08 mm Close Horizontal PCB Header\nMax Height = 8.5mm , Pitch 5.08mm , 2pins")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6711681e-1354-4606-a515-77c4822ecea1")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "691313510002"
+		(at -3.5 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6eac820c-a9a3-4df1-92fc-5ebf7db9d413")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73a3b90d-f12b-4c5b-8b80-7e5371e46555")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a169b2fc-bd62-4c43-a74b-e38f7407e3ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22e21008-36f8-4935-bc9e-c1b44e5337d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -6.18 -2.1)
+		(end 6.18 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fbbf741-1f76-4f08-a365-d12f38afefe5")
+	)
+	(fp_line
+		(start -6.18 10.1)
+		(end -6.18 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d597e17-a788-4807-88a8-be60e211971a")
+	)
+	(fp_line
+		(start 6.18 -2.1)
+		(end 6.18 10.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f121965a-2ca9-4738-8732-230a2ae60ce7")
+	)
+	(fp_line
+		(start 6.18 10.1)
+		(end -6.18 10.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee2eeeba-fc9e-4050-a694-b14acf924896")
+	)
+	(fp_circle
+		(center -4.6 -0.9)
+		(end -4.4 -0.9)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "03e80724-9caa-4d5d-8b8e-efdcaa9f2a04")
+	)
+	(fp_poly
+		(pts
+			(xy 6.43 10.35) (xy -6.43 10.35) (xy -6.43 -2.35) (xy 6.43 -2.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "d323a095-f2c3-4284-96df-8bc2c3c49888")
+	)
+	(fp_line
+		(start -6.08 -2)
+		(end -6.08 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5267f231-f3ad-4d65-ab7f-b1402a4403da")
+	)
+	(fp_line
+		(start -6.08 10)
+		(end 6.08 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f547c5a2-b102-4b0f-a21b-ab411ea3222a")
+	)
+	(fp_line
+		(start 6.08 -2)
+		(end -6.08 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49d3a7ab-3036-49a6-a782-249119e8baa8")
+	)
+	(fp_line
+		(start 6.08 10)
+		(end 6.08 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afb4eada-af04-4b74-8a2c-95bd0d66e9d8")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "8c509919-13b8-4740-bb2e-2db1df3261dd")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "09daf18b-376b-4ecc-9b8c-52f96e79c245")
+	)
+)
