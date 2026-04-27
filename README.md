@@ -1,16 +1,36 @@
 # ADC Validation Platform
-
-*A high-precision analog-to-digital converter validation platform for embedded systems*
+*A modular testbed for evaluating analog signal chains in motor control applications*
 
 ---
-## State
-Please note this repository is work in progress! This Readme is still partly written by AI for a better structual appearens. 
+## ⚠️ Development Status
+> **Work in Progress**: This repository is actively developed as part of my **Master’s project** at HTWG Konstanz. The current README is a draft and will be expanded with hardware designs, firmware, and validation results.
+
+---
 
 ## 📌 Overview
+This repository provides **design files, firmware, and validation tools** for a custom **ADC validation board**, developed as an extension to my **Bachelor’s thesis** on the ["DIY Power PCB"](link-to-pdf) (HTWG Konstanz, 2024). While the original thesis used the **ESP32’s internal ADC** (limited by nonlinearity and noise), this platform focuses on:
 
-This repository contains the **design files, firmware, and validation results** for a custom ADC validation board developed as an addition to my **Bachelor Thesis** the "DIY Power PCB" at [HTWG-Konstanz]. The board is initally designed to evaluate the performance of an external ADC[MCP32008/MCP3008] in the applications, focusing on **noise, linearity, and temperature stability**.
-As the orignal design of the thesis is using the internal ADC of an ESP32, which leads to non linearity and noise issues, this board is used to validate an external ADC brings additional accurcy in the measurment of the currents of the [DIY Power PCB]. As an addition the board also allows the testing of newer and more expensive current sensing sensors and operational amplifiers to validate and compare the whole measurment cycle aswell. The focus is still on the Analog to Digital conversion.
-🔗 **[Read the full documentation of the "DIY Power PCB"[german] (PDF)](link-to-pdf)** | [View summary](#thesis-summary)
+### **Core Objectives**
+1. **External ADC Validation**:
+   - Replace the ESP32’s internal ADC with a **MCP3208/MCP3008** (12-bit, 8-channel) to quantify improvements in **noise floor, linearity, and temperature stability** for current measurements.
+   - *Key question*: Does an external ADC justify the added complexity/cost in motor control applications?
+
+2. **Full Analog Chain Analysis**:
+   - Evaluate the **entire signal path**:
+     - **Shunt-based current sensing** (bridge currents)
+     - **Operational amplifiers** (e.g., [OPV model]) for signal conditioning
+     - **High-end current sensors** (e.g., [ACS71231, INA240]) as alternatives to shunts
+   - *Goal*: Identify the **weakest link** in the chain (ADC vs. sensors vs. OPVs) and optimize cost/performance trade-offs.
+
+3. **BLDC Motor Control Context**:
+   - Target application: **Precise phase current measurement** for FOC (Field-Oriented Control) of BLDC motors.
+   - Compare budget vs. high-end components to determine **where to invest** for maximum accuracy.
+
+---
+
+## 🔗 Related Work
+- **Bachelor’s Thesis**: ["DIY Power PCB" (PDF, German)](link-to-pdf) – Foundation for this project, focusing on the ESP32-based power distribution board.
+- **Master’s Project**: Extends the thesis by adding **modular ADC validation** and analog chain analysis.
 
 ---
 
