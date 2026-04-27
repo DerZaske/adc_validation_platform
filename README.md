@@ -1,14 +1,16 @@
-# ADC Validation Board
+# ADC Validation Platform
 
 *A high-precision analog-to-digital converter validation platform for embedded systems*
 
 ---
+## State
+Please note this repository is work in progress! This Readme is still partly written by AI for a better structual appearens. 
 
 ## 📌 Overview
 
-This repository contains the **design files, firmware, and validation results** for a custom ADC validation board developed as part of my **Bachelor’s thesis** in [Your Study Program] at [Your University]. The board is designed to evaluate the performance of [ADC Model, e.g., ADS1256] in real-world applications, focusing on **noise, linearity, and temperature stability**.
-
-🔗 **[Read the full thesis (PDF)](link-to-pdf)** | [View summary](#thesis-summary)
+This repository contains the **design files, firmware, and validation results** for a custom ADC validation board developed as an addition to my **Bachelor Thesis** the "DIY Power PCB" at [HTWG-Konstanz]. The board is initally designed to evaluate the performance of an external ADC[MCP32008/MCP3008] in the applications, focusing on **noise, linearity, and temperature stability**.
+As the orignal design of the thesis is using the internal ADC of an ESP32, which leads to non linearity and noise issues, this board is used to validate an external ADC brings additional accurcy in the measurment of the currents of the [DIY Power PCB]. As an addition the board also allows the testing of newer and more expensive current sensing sensors and operational amplifiers to validate and compare the whole measurment cycle aswell. The focus is still on the Analog to Digital conversion.
+🔗 **[Read the full documentation of the "DIY Power PCB"[german] (PDF)](link-to-pdf)** | [View summary](#thesis-summary)
 
 ---
 
