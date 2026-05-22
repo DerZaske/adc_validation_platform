@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -628,17 +644,35 @@
     "top_level_sheets": [
       {
         "filename": "AD-Wandler-Validation-Board.kicad_sch",
-        "name": "Root",
+        "name": "Main",
         "uuid": "a9799a1a-e989-4ead-a33e-c5edd2ca2439"
+      },
+      {
+        "filename": "esp32.kicad_sch",
+        "name": "ESP32/ADCs",
+        "uuid": "ecdf14c0-6b50-499e-ae27-085e24f99ddb"
+      },
+      {
+        "filename": "sensorik.kicad_sch",
+        "name": "Sensorik",
+        "uuid": "52edafce-aecd-4932-8e65-89ef9b9dfa33"
       }
     ],
-    "used_designators": "Brd1,J1-4,R1,U1-9",
+    "used_designators": "C4-6,U8-14,Y2,#PWR7-20,J9-17,R2,R4,R7-8,TP23-45,JP8-30",
     "variants": []
   },
   "sheets": [
     [
       "a9799a1a-e989-4ead-a33e-c5edd2ca2439",
-      "Root"
+      "Main"
+    ],
+    [
+      "52edafce-aecd-4932-8e65-89ef9b9dfa33",
+      "Sensorik"
+    ],
+    [
+      "ecdf14c0-6b50-499e-ae27-085e24f99ddb",
+      "ESP32/ADCs"
     ]
   ],
   "text_variables": {},
