@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "AD_Validation_Board") (type "KiCad") (uri "${KIPRJMOD}/Librarys/symbol_libs/BA_Zaske.kicad_sym") (options "") (descr ""))
+)
