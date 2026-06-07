@@ -290,16 +290,6 @@
 	)
 	(wire
 		(pts
-			(xy -102.87 1.27) (xy -93.98 1.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0143a31a-f7c3-41b9-ad8c-0ff8af593b4c")
-	)
-	(wire
-		(pts
 			(xy 104.14 88.9) (xy 104.14 87.63)
 		)
 		(stroke
@@ -317,16 +307,6 @@
 			(type default)
 		)
 		(uuid "034de4e8-ceaa-4f95-bb59-743aeccc48cd")
-	)
-	(wire
-		(pts
-			(xy -29.21 12.7) (xy -29.21 11.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b76a6d3-13b0-4830-8fe2-0e0c402a85cd")
 	)
 	(wire
 		(pts
@@ -360,46 +340,6 @@
 	)
 	(wire
 		(pts
-			(xy -90.17 44.45) (xy -83.82 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10894567-e5eb-48fe-9b65-24f821c66585")
-	)
-	(wire
-		(pts
-			(xy -102.87 39.37) (xy -93.98 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12d59f01-a670-4671-a290-e87d998c8d3d")
-	)
-	(wire
-		(pts
-			(xy -80.01 12.7) (xy -80.01 11.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "168597b5-1e14-41bb-88b0-2c29633a18ae")
-	)
-	(wire
-		(pts
-			(xy -29.21 0) (xy -29.21 1.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "172d5779-e476-4cb4-8c32-cf336f0653f6")
-	)
-	(wire
-		(pts
 			(xy 62.23 88.9) (xy 52.07 88.9)
 		)
 		(stroke
@@ -417,16 +357,6 @@
 			(type default)
 		)
 		(uuid "21a6d67a-8f3e-419c-bf1d-317f711c7c19")
-	)
-	(wire
-		(pts
-			(xy -80.01 12.7) (xy -29.21 12.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22f5fcbc-1671-44e7-bf03-75b1655f8e3e")
 	)
 	(wire
 		(pts
@@ -450,16 +380,6 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 44.45) (xy -22.86 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33229b30-760f-4c2c-b67b-b5a39cd98bfe")
-	)
-	(wire
-		(pts
 			(xy 62.23 48.26) (xy 62.23 50.8)
 		)
 		(stroke
@@ -470,36 +390,6 @@
 	)
 	(wire
 		(pts
-			(xy -10.16 6.35) (xy 5.08 6.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36ae9de7-dcf0-4d74-b953-e2cca98cd29c")
-	)
-	(wire
-		(pts
-			(xy -44.45 0) (xy -29.21 0)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a660b86-13da-4bd1-bfaf-07813e14297c")
-	)
-	(wire
-		(pts
-			(xy -80.01 19.05) (xy -80.01 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d45195f-7edd-4f40-8523-1e944c46ecb0")
-	)
-	(wire
-		(pts
 			(xy 50.8 52.07) (xy 50.8 53.34)
 		)
 		(stroke
@@ -507,26 +397,6 @@
 			(type default)
 		)
 		(uuid "4112ea3c-dd47-4934-8488-7333dd8b582c")
-	)
-	(wire
-		(pts
-			(xy -80.01 38.1) (xy -63.5 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b77d4f-688e-4532-b1c7-5c2ebf7e0502")
-	)
-	(wire
-		(pts
-			(xy -25.4 25.4) (xy -22.86 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450f6b61-64c0-48ec-8149-6f5af9ce2f24")
 	)
 	(wire
 		(pts
@@ -547,16 +417,6 @@
 			(type default)
 		)
 		(uuid "49b7c91b-2de2-4eb3-9c43-b8d0e9c79581")
-	)
-	(wire
-		(pts
-			(xy -45.72 19.05) (xy -29.21 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "545d8fc3-f6ad-411a-9a05-ec98fbc54e96")
 	)
 	(wire
 		(pts
@@ -620,16 +480,6 @@
 	)
 	(wire
 		(pts
-			(xy -80.01 1.27) (xy -63.5 1.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75277f74-e0bc-43e4-8143-0cf07f374b5f")
-	)
-	(wire
-		(pts
 			(xy 54.61 38.1) (xy 62.23 38.1)
 		)
 		(stroke
@@ -637,16 +487,6 @@
 			(type default)
 		)
 		(uuid "76872e85-ffc5-4e1a-9e0d-4253427b2d64")
-	)
-	(wire
-		(pts
-			(xy -80.01 31.75) (xy -29.21 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7947ad59-9b51-4088-b06d-b79ca1b57e88")
 	)
 	(wire
 		(pts
@@ -660,16 +500,6 @@
 	)
 	(wire
 		(pts
-			(xy -80.01 38.1) (xy -80.01 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b7f7764-a89c-4739-a778-359ccb06fc58")
-	)
-	(wire
-		(pts
 			(xy 115.57 44.45) (xy 115.57 43.18)
 		)
 		(stroke
@@ -680,16 +510,6 @@
 	)
 	(wire
 		(pts
-			(xy -45.72 38.1) (xy -29.21 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e6edb4-048c-4e82-8131-389e05d428eb")
-	)
-	(wire
-		(pts
 			(xy 115.57 52.07) (xy 115.57 53.34)
 		)
 		(stroke
@@ -697,16 +517,6 @@
 			(type default)
 		)
 		(uuid "877eb6dd-5f8d-4393-8740-ee8ed05f984b")
-	)
-	(wire
-		(pts
-			(xy -29.21 31.75) (xy -29.21 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "893f0e17-cd8b-4f8a-96d4-145a469bfb97")
 	)
 	(wire
 		(pts
@@ -730,16 +540,6 @@
 	)
 	(wire
 		(pts
-			(xy -80.01 50.8) (xy -80.01 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92bfacd7-d365-4e6b-aa02-752faba375ae")
-	)
-	(wire
-		(pts
 			(xy 62.23 88.9) (xy 62.23 87.63)
 		)
 		(stroke
@@ -747,16 +547,6 @@
 			(type default)
 		)
 		(uuid "9735b558-6b3b-436b-ac83-e84c76256249")
-	)
-	(wire
-		(pts
-			(xy -29.21 50.8) (xy -29.21 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99d1c55f-2ba1-43d7-bddf-a550eca59254")
 	)
 	(wire
 		(pts
@@ -770,46 +560,6 @@
 	)
 	(wire
 		(pts
-			(xy -90.17 25.4) (xy -83.82 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d6ab164-eaf1-464d-b953-6ef71a7479f2")
-	)
-	(wire
-		(pts
-			(xy -80.01 50.8) (xy -29.21 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1db1360-5a27-4fee-accd-61ddd85d9fb4")
-	)
-	(wire
-		(pts
-			(xy -29.21 19.05) (xy -29.21 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a215a1e7-4301-4c63-86a0-d84edd5203de")
-	)
-	(wire
-		(pts
-			(xy -29.21 38.1) (xy -29.21 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a43b5efa-635a-4a49-9cae-58feb39ccd75")
-	)
-	(wire
-		(pts
 			(xy 35.56 83.82) (xy 50.8 83.82)
 		)
 		(stroke
@@ -817,16 +567,6 @@
 			(type default)
 		)
 		(uuid "a866cb32-e914-41a0-bb2e-90a3fb6a606d")
-	)
-	(wire
-		(pts
-			(xy -80.01 31.75) (xy -80.01 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0515681-7487-42ce-8529-0de73a96ba3e")
 	)
 	(wire
 		(pts
@@ -840,16 +580,6 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 6.35) (xy -22.86 6.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b49e5f32-67f2-48af-8658-ae281608757c")
-	)
-	(wire
-		(pts
 			(xy 111.76 58.42) (xy 104.14 58.42)
 		)
 		(stroke
@@ -857,16 +587,6 @@
 			(type default)
 		)
 		(uuid "b51bb3e1-2c17-4433-aa9f-95e1aed71299")
-	)
-	(wire
-		(pts
-			(xy -10.16 25.4) (xy 5.08 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b54f2bdc-e497-4c98-a9e4-1ace289c5fb0")
 	)
 	(wire
 		(pts
@@ -950,16 +670,6 @@
 	)
 	(wire
 		(pts
-			(xy -102.87 20.32) (xy -93.98 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4879968-687e-4b9b-9d40-6ba2baa3a18e")
-	)
-	(wire
-		(pts
 			(xy 62.23 50.8) (xy 52.07 50.8)
 		)
 		(stroke
@@ -967,16 +677,6 @@
 			(type default)
 		)
 		(uuid "d49802d0-9d6d-4c41-bd13-27ce1761f6f0")
-	)
-	(wire
-		(pts
-			(xy -80.01 19.05) (xy -63.5 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d83bf1dd-460a-42e5-99ef-a213885104f9")
 	)
 	(wire
 		(pts
@@ -1020,16 +720,6 @@
 	)
 	(wire
 		(pts
-			(xy -10.16 44.45) (xy 5.08 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2288b6e-3426-4bf7-a2da-4fc1e0f3cad1")
-	)
-	(wire
-		(pts
 			(xy 104.14 88.9) (xy 114.3 88.9)
 		)
 		(stroke
@@ -1057,16 +747,6 @@
 			(type default)
 		)
 		(uuid "f5345ca0-920a-4267-aa2d-84f6a7715dc7")
-	)
-	(wire
-		(pts
-			(xy -90.17 6.35) (xy -83.82 6.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe346d47-1195-4835-9455-64d6f69ca1d0")
 	)
 	(wire
 		(pts
@@ -1098,16 +778,6 @@
 		)
 		(uuid "014abd2e-d034-41f9-b0d5-8ba749a3befe")
 	)
-	(label "ACS7xx_1{slash}AD"
-		(at -63.5 12.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "047972e4-a217-4ed6-b200-ad40b8358a8f")
-	)
 	(label "Sens1_out"
 		(at 76.2 43.18 180)
 		(effects
@@ -1128,16 +798,6 @@
 		)
 		(uuid "0d11d4d2-c054-4e39-9959-42fa17bd8ca4")
 	)
-	(label "ACS7xx_3{slash}ESP"
-		(at -63.5 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0e716b31-f362-40e6-86e0-2cbe48f6395c")
-	)
 	(label "V_A2_AD_F"
 		(at 114.3 50.8 180)
 		(effects
@@ -1147,26 +807,6 @@
 			(justify right bottom)
 		)
 		(uuid "206d2a68-b2c9-4b0f-bcff-a58b7c427c50")
-	)
-	(label "ACS7xx_3{slash}AD"
-		(at -63.5 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "22c494a4-3c24-45a6-bdf2-fbd50a046392")
-	)
-	(label "V_B1_AD"
-		(at 5.08 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "25820cb0-1368-40db-9312-501ca49458ee")
 	)
 	(label "CH2_MCP_F"
 		(at 130.81 31.75 180)
@@ -1178,16 +818,6 @@
 		)
 		(uuid "2bbc1599-7afb-4fc8-a595-57d05af0f411")
 	)
-	(label "ACS7xx_1{slash}ESP"
-		(at -63.5 1.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "368e5c5a-d6d3-4d0a-9518-5f78ea1825b1")
-	)
 	(label "ADC1_3_ESP_F"
 		(at 130.81 64.77 180)
 		(effects
@@ -1197,16 +827,6 @@
 			(justify right bottom)
 		)
 		(uuid "38a81a8a-935b-4531-905c-bdb581a625f7")
-	)
-	(label "ACS7xx_3"
-		(at -102.87 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b510ed4-d715-4fae-a571-a3ee048b7161")
 	)
 	(label "ACS7xx_2"
 		(at 35.56 52.07 0)
@@ -1268,56 +888,6 @@
 		)
 		(uuid "59dc6916-a1ba-4c2c-8463-3a451eb27b93")
 	)
-	(label "V_A1_AD"
-		(at 5.08 6.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "674234c1-ecd0-4dc7-a759-0fa5c7739133")
-	)
-	(label "INA2_out"
-		(at -45.72 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e569204-c298-41a3-acf7-31eefefd57aa")
-	)
-	(label "ACS7xx_1"
-		(at -102.87 1.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f8a3088-a681-479f-9338-25b6ed92dd76")
-	)
-	(label "V_A3_AD"
-		(at 5.08 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87a2fa6d-4d08-4ccf-aaea-b9a6b41c36fb")
-	)
-	(label "ACS7xx_3{slash}MCP"
-		(at -90.17 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ec0134d-a594-46f7-9bc8-e8726a2d8d10")
-	)
 	(label "OPV2_out"
 		(at 52.07 69.85 0)
 		(effects
@@ -1337,16 +907,6 @@
 			(justify right bottom)
 		)
 		(uuid "982bbd44-ad15-4167-8fd6-32fe51f9210c")
-	)
-	(label "INA3_out"
-		(at -45.72 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9be2a194-3f0f-4dc0-aaf7-a2fe04b15a7f")
 	)
 	(label "ACS7xx_1"
 		(at 35.56 31.75 0)
@@ -1388,16 +948,6 @@
 		)
 		(uuid "a2dbd1b7-f667-407e-881e-0a68d7bbc20b")
 	)
-	(label "ACS7xx_1{slash}MCP"
-		(at -90.17 -3.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b232cd46-e08d-4761-9779-58f34ec470fe")
-	)
 	(label "CH1_MCP_F"
 		(at 130.81 52.07 180)
 		(effects
@@ -1407,16 +957,6 @@
 			(justify right bottom)
 		)
 		(uuid "b2eacaeb-4d0c-4f5e-b851-3e79b2515413")
-	)
-	(label "INA1_out"
-		(at -44.45 0 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b54b5ff9-d251-48fb-8186-531417d5f31a")
 	)
 	(label "CH0_MCP_F"
 		(at 130.81 71.12 180)
@@ -1428,16 +968,6 @@
 		)
 		(uuid "b9599220-8a20-4de4-be62-016b2de2eee1")
 	)
-	(label "ACS7xx_2{slash}AD"
-		(at -63.5 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6cba236-ba53-43c3-a93c-b1845c85e9fa")
-	)
 	(label "Sens2_out"
 		(at 90.17 62.23 0)
 		(effects
@@ -1447,26 +977,6 @@
 			(justify left bottom)
 		)
 		(uuid "d75ae60f-68e8-4b0f-aa51-f678465110f0")
-	)
-	(label "ACS7xx_2"
-		(at -102.87 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e349799f-29eb-4322-ae36-9d6cdcb9f101")
-	)
-	(label "ACS7xx_2{slash}MCP"
-		(at -90.17 15.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f043e450-3959-45e9-ab15-d3974a4ed7e4")
 	)
 	(label "Sens3_out"
 		(at 90.17 82.55 0)
@@ -1487,16 +997,6 @@
 			(justify right bottom)
 		)
 		(uuid "fc8a7c0b-ed90-4f0c-a660-357c18b13c12")
-	)
-	(label "ACS7xx_2{slash}ESP"
-		(at -63.5 19.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fcacd16a-1ae3-411a-8bce-46b12952d305")
 	)
 	(label "INA2_out"
 		(at 35.56 64.77 0)
@@ -1607,116 +1107,15 @@
 			(uuid "33fddc8b-0d70-4dc5-a800-ffd9351d246d")
 		)
 		(instances
-			(project "AD-Wandler-Validation-Board"
-				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
 					(reference "JP39")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at -90.17 39.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1cc2a702-3ba7-4318-8523-063ef81e9644")
-		(property "Reference" "JP26"
-			(at -87.63 40.6401 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at -90.17 45.974 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
-			(at -90.17 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -105.41 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at -102.87 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at -107.95 39.37 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at -110.49 39.37 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "23ad788b-6845-413e-84a0-aab72fcb803a")
-		)
-		(pin "1"
-			(uuid "358e3fca-2bfe-4019-bf7f-9ab0d9ebb108")
-		)
-		(pin "3"
-			(uuid "664ba9fa-50e0-474b-8936-13438fec7218")
-		)
-		(instances
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
-					(reference "JP26")
+					(reference "JP39")
 					(unit 1)
 				)
 			)
@@ -1821,6 +1220,12 @@
 			(uuid "ebbc22ad-2ebe-421b-a074-67286f87419c")
 		)
 		(instances
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
+					(reference "JP40")
+					(unit 1)
+				)
+			)
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
 					(reference "JP40")
@@ -1928,223 +1333,15 @@
 			(uuid "471f4663-1613-40b9-a98a-d0e67a9334bc")
 		)
 		(instances
-			(project "AD-Wandler-Validation-Board"
-				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
 					(reference "JP38")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at -80.01 6.35 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ac5df12-f4e7-4bec-a59e-d03f0823a849")
-		(property "Reference" "JP22"
-			(at -77.47 7.6201 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at -80.01 12.954 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
-			(at -80.01 6.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -95.25 6.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at -92.71 6.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at -97.79 6.35 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at -100.33 6.35 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d0099874-8f41-4284-8c32-e0de0ba8cd9e")
-		)
-		(pin "1"
-			(uuid "db2796ac-f556-4b1b-9d94-c0ad312960bb")
-		)
-		(pin "3"
-			(uuid "795770eb-4151-4c74-b97a-6156e2c0f352")
-		)
-		(instances
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
-					(reference "JP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at -29.21 6.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "599908cb-60f6-46c1-a162-baacd2bd6445")
-		(property "Reference" "JP28"
-			(at -31.75 5.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at -29.21 -0.254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
-			(at -29.21 6.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -13.97 6.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at -16.51 6.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at -11.43 6.35 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at -8.89 6.35 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ddd6304-3268-44b3-b0ea-190f5c3bfdcc")
-		)
-		(pin "1"
-			(uuid "378054a8-74ce-4c58-80ec-cad75911bedd")
-		)
-		(pin "3"
-			(uuid "45f971ca-7989-432e-ac9f-14b78bc90e18")
-		)
-		(instances
-			(project "AD-Wandler-Validation-Board"
-				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
-					(reference "JP28")
+					(reference "JP38")
 					(unit 1)
 				)
 			)
@@ -2250,116 +1447,15 @@
 			(uuid "47e9a2c5-ba33-491c-b194-5dffd7585db1")
 		)
 		(instances
-			(project "AD-Wandler-Validation-Board"
-				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
 					(reference "JP48")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at -29.21 25.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "739135ea-44f6-460b-9df7-f0c87bf704ba")
-		(property "Reference" "JP29"
-			(at -31.75 24.1299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at -29.21 18.796 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
-			(at -29.21 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -13.97 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at -16.51 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at -11.43 25.4 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at -8.89 25.4 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5ab60d87-07c0-4590-8c19-29ad22295abd")
-		)
-		(pin "1"
-			(uuid "04aaba1e-6881-40f1-a045-2dc34f96473b")
-		)
-		(pin "3"
-			(uuid "e6f56756-9308-4ccb-9560-fa1b7e5bc181")
-		)
-		(instances
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
-					(reference "JP29")
+					(reference "JP48")
 					(unit 1)
 				)
 			)
@@ -2464,6 +1560,12 @@
 			(uuid "50db1b0b-0a18-4d23-aa66-4f798e8b1495")
 		)
 		(instances
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
+					(reference "JP43")
+					(unit 1)
+				)
+			)
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
 					(reference "JP43")
@@ -2571,223 +1673,15 @@
 			(uuid "9f45e9e3-8654-4125-9387-86e0c9d85c98")
 		)
 		(instances
-			(project "AD-Wandler-Validation-Board"
-				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
 					(reference "JP42")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at -80.01 25.4 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "917c618a-59ba-4b80-a0ea-27b09bc8a5e0")
-		(property "Reference" "JP24"
-			(at -77.47 26.6701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at -80.01 32.004 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
-			(at -80.01 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -95.25 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at -92.71 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at -97.79 25.4 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at -100.33 25.4 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "485d0492-0662-40f4-8956-d521d7872b50")
-		)
-		(pin "1"
-			(uuid "d2d816dd-2c87-4c4c-95ed-f4221a41d8ac")
-		)
-		(pin "3"
-			(uuid "8d19bd57-57cd-4be7-b908-6dbfe9a80288")
-		)
-		(instances
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
-					(reference "JP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at -90.17 20.32 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "954f1c61-43a4-4a9a-96af-53ee1fb290ee")
-		(property "Reference" "JP23"
-			(at -87.63 21.5901 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at -90.17 26.924 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
-			(at -90.17 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -105.41 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at -102.87 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at -107.95 20.32 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at -110.49 20.32 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "17dbc036-3491-4419-a426-26114de3097b")
-		)
-		(pin "1"
-			(uuid "6d8eb357-c54f-4fd7-956e-4c717ce7ec00")
-		)
-		(pin "3"
-			(uuid "aae8f95e-240e-43d8-9b37-3815432477f8")
-		)
-		(instances
-			(project "AD-Wandler-Validation-Board"
-				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
-					(reference "JP23")
+					(reference "JP42")
 					(unit 1)
 				)
 			)
@@ -2893,116 +1787,15 @@
 			(uuid "84accdbc-9dec-40ae-8fe1-0e743415216c")
 		)
 		(instances
-			(project "AD-Wandler-Validation-Board"
-				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
 					(reference "JP45")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at -90.17 1.27 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b42e5682-1ed5-4762-af45-aafd4d224e48")
-		(property "Reference" "JP25"
-			(at -87.63 2.5401 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at -90.17 7.874 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
-			(at -90.17 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -105.41 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at -102.87 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at -107.95 1.27 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at -110.49 1.27 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ca77704a-a0fe-4ccc-8898-bcc867bdbb69")
-		)
-		(pin "1"
-			(uuid "059c0b98-e595-4c5f-90cc-f3fb69363803")
-		)
-		(pin "3"
-			(uuid "742b5414-74bc-47f8-9bc7-2587b95b4053")
-		)
-		(instances
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
-					(reference "JP25")
+					(reference "JP45")
 					(unit 1)
 				)
 			)
@@ -3108,6 +1901,12 @@
 			(uuid "c0eca41e-516e-4ba6-9554-c4dc53ae45f8")
 		)
 		(instances
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
+					(reference "JP47")
+					(unit 1)
+				)
+			)
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
 					(reference "JP47")
@@ -3216,6 +2015,12 @@
 			(uuid "d31b3fd9-6678-4aa4-a7d4-b8d725ea9ea3")
 		)
 		(instances
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
+					(reference "JP44")
+					(unit 1)
+				)
+			)
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
 					(reference "JP44")
@@ -3324,116 +2129,15 @@
 			(uuid "9d6a50d0-5f13-4d2f-b422-1521addfc5be")
 		)
 		(instances
-			(project "AD-Wandler-Validation-Board"
-				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
 					(reference "JP49")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at -80.01 44.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d8fdeeb0-5087-4cb3-9b1d-a34e675b6462")
-		(property "Reference" "JP27"
-			(at -77.47 45.7201 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at -80.01 51.054 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
-			(at -80.01 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -95.25 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at -92.71 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at -97.79 44.45 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at -100.33 44.45 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8afe0aee-04e5-4348-b769-2cc750f9cad0")
-		)
-		(pin "1"
-			(uuid "ddb9c846-0bda-4382-8935-7111c4197629")
-		)
-		(pin "3"
-			(uuid "bc3c5bd9-cb19-4c54-aef9-61f8abbdb9c0")
-		)
-		(instances
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
-					(reference "JP27")
+					(reference "JP49")
 					(unit 1)
 				)
 			)
@@ -3539,116 +2243,15 @@
 			(uuid "45a0d523-292b-4fcd-9c20-3685a7ea6cb4")
 		)
 		(instances
-			(project "AD-Wandler-Validation-Board"
-				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
 					(reference "JP46")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at -29.21 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee623c75-fa41-4c77-bc51-061b9a93cf28")
-		(property "Reference" "JP30"
-			(at -31.75 43.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at -29.21 37.846 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
-			(at -29.21 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -13.97 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at -16.51 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at -11.43 44.45 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at -8.89 44.45 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "357c3248-4a7e-4027-8209-8b5cf73b9dfd")
-		)
-		(pin "1"
-			(uuid "ff593b42-fe48-4c22-9d1b-f3b5497f4d19")
-		)
-		(pin "3"
-			(uuid "b54a3341-d2ab-40f8-b42f-1ceb284ff481")
-		)
-		(instances
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
-					(reference "JP30")
+					(reference "JP46")
 					(unit 1)
 				)
 			)
@@ -3753,6 +2356,12 @@
 			(uuid "eec7e8ee-a977-4c90-9aba-c94ea5a90880")
 		)
 		(instances
+			(project "routing"
+				(path "/5a8a12ea-f571-4660-9f2d-10468a691873"
+					(reference "JP41")
+					(unit 1)
+				)
+			)
 			(project "AD-Wandler-Validation-Board"
 				(path "/9e8ed019-2641-4000-9954-2b5f4fac6049"
 					(reference "JP41")
@@ -3766,4 +2375,5 @@
 			(page "3")
 		)
 	)
+	(embedded_fonts no)
 )
