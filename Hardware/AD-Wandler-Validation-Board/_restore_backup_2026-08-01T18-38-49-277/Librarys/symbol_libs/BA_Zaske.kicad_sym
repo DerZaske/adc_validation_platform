@@ -30,7 +30,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "ADC_Validation_Board:691313510002"
+		(property "Footprint" "Connector_Wuerth2:691313510002"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -158,7 +158,7 @@
 					(type none)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -2.54 -5.08 90)
 				(length 2.54)
 				(name "1"
@@ -4401,7 +4401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
