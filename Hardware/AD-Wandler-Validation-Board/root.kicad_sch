@@ -1,0 +1,159 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0e78c1d3-ae73-4196-94ef-311299122095")
+	(paper "A4")
+	(title_block
+		(title "ADC-Validation-Board")
+		(date "2026-05-21")
+		(rev "1")
+		(company "HTWG-Konstanz")
+		(comment 1 "by Fabian Zaske")
+	)
+	(lib_symbols)
+	(sheet
+		(at 24.13 40.64)
+		(size 68.58 99.06)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "46616c49-b5bd-4555-9f73-45bfb17daf27")
+		(property "Sheetname" "Sensorik"
+			(at 24.13 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensorik.kicad_sch"
+			(at 24.13 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/996c0d0c-77c4-4d0b-9015-d50b17b8517d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 39.37)
+		(size 76.2 100.33)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a1367e6c-a5ac-4da2-b5d4-cfc20df95f01")
+		(property "Sheetname" "routing"
+			(at 109.22 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "routing.kicad_sch"
+			(at 109.22 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/996c0d0c-77c4-4d0b-9015-d50b17b8517d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 38.1)
+		(size 74.93 101.6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c54bf441-2627-4f0e-a5c0-c3e0bc112a48")
+		(property "Sheetname" "ESP32+ADCs"
+			(at 203.2 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 203.2 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AD-Wandler-Validation-Board"
+				(path "/996c0d0c-77c4-4d0b-9015-d50b17b8517d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

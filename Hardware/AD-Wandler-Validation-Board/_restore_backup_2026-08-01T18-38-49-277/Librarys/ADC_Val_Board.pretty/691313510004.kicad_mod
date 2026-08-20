@@ -1,0 +1,212 @@
+(footprint "691313510004"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WR-TBL Serie 313 - 5.08 mm Close Horizontal PCB Header\nMax Height = 8.5mm , Pitch 5.08mm , 4pins")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7981a680-0202-4a2d-ab25-f63a9443e33a")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "691313510004"
+		(at -3.5 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c40f0e6-52b0-43f3-ba5e-614af2b860b5")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57b3f07f-8196-492f-a863-4525f4bd86d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00a6cc2f-5902-4cd8-8d0c-ef5a3c061f6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0514fd6-513d-4f4c-b2fc-a5d7e327c98c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -11.26 -2.1)
+		(end 11.26 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7e0ece9-6dc1-41de-8982-3dd8e6edf073")
+	)
+	(fp_line
+		(start -11.26 10.1)
+		(end -11.26 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a89da62-dd30-4ab1-b109-c07667ca0d96")
+	)
+	(fp_line
+		(start 11.26 -2.1)
+		(end 11.26 10.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c35e8fe-a82f-4c96-a431-93490547aecf")
+	)
+	(fp_line
+		(start 11.26 10.1)
+		(end -11.26 10.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02ebf38f-40b3-4a62-adb6-ecc7a8ee8259")
+	)
+	(fp_circle
+		(center -9.68 -0.9)
+		(end -9.48 -0.9)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "342259de-2c58-46f9-88db-406fdc486617")
+	)
+	(fp_poly
+		(pts
+			(xy 11.51 10.35) (xy -11.51 10.35) (xy -11.51 -2.35) (xy 11.51 -2.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "494ef0a1-af09-4d45-9ba7-d0b45cb296ba")
+	)
+	(fp_line
+		(start -11.16 -2)
+		(end -11.16 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c994aed-0492-40b8-be2d-8051c8c5b8b1")
+	)
+	(fp_line
+		(start -11.16 10)
+		(end 11.16 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "230c6488-319f-4ae2-a538-03b5edbec595")
+	)
+	(fp_line
+		(start 11.16 -2)
+		(end -11.16 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6f1e45f-ee70-4326-9f64-72b61d3c6dcf")
+	)
+	(fp_line
+		(start 11.16 10)
+		(end 11.16 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ece2bb26-1870-4f1b-bfb0-3ae19f71eca4")
+	)
+	(pad "1" thru_hole circle
+		(at -7.62 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "939e07ec-685d-4f9d-99b0-a2b8d40a84b5")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4e51a2f5-8bf1-463f-9caf-5e8f240a4286")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "14083586-5f5c-45c0-9246-137d5a7d21f5")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "26c93323-755a-45dd-b69f-e07ecc808917")
+	)
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ADC_Validation_Board") (type "KiCad") (uri "${KIPRJMOD}/Librarys/ADC_Val_Board.pretty") (options "") (descr ""))
+)
