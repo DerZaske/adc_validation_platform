@@ -12,14 +12,14 @@ This repository provides **design files, firmware, and validation tools** for a 
 
 ### **Core Objectives**
 1. **External ADC Validation**:
-   - Replace the ESP32’s internal ADC with a **MCP3208/MCP3008** (12/10-bit, 8-channel) to quantify improvements in **noise floor, linearity, and temperature stability** for current measurements.
+   - Replace the ESP32’s internal ADC with a **MCP3208/MCP3008** (12/10-bit, 8-channel) or an **AD7265** (12bit, dual 3-channel SAR) to quantify improvements in **noise floor and linearity** for current measurements.
    - *Key question*: Does an external ADC justify the added complexity/cost in motor control applications?
 
 2. **Full Analog Chain Analysis**:
    - Evaluate the **entire signal path**:
-     - **Shunt-based current sensing + Operational amplifier** (e.g. [MCP6002], [TLV906],...)
+     - **Shunt-based current sensing + Operational amplifier** (e.g. [MCP6002], [TLV906],...) for low-side measurement
+     - **Shunt-based current sensing + Currentmeasure amplifier** (INA240) for inline measurement
      - **Phase current sensors** (e.g., [ACS712], [ACS723]...)
-     - **Inputvoltage sensing** (voltage divider)
    - *Goal*: Identify the **weakest link** in the chain (ADC vs. sensors vs. OPVs) and optimize cost/performance trade-offs.
 
 3. **BLDC Motor Control Context**:
@@ -37,9 +37,16 @@ This repository provides **design files, firmware, and validation tools** for a 
 ## 🛠️ Features
 
 - **Hardware:**
-  - [ADC Model] with [resolution]-bit resolution
-  - [MCU Model, e.g., STM32F4] for data acquisition
-  - Low-noise power supply and signal conditioning
+  -Analog to Digital Converter(ADC):
+    - [MCP3208] with [12]-bit resolution, 100ksps, 8-channel
+    - [AD7265] with [12]-bit resolution, 1MSPS, dual 3-channel differntial(=2 seperate 6-channle single-ended) 
+    - [ESP-32] with [12]-bit resolution, 25ksps, 18-channel
+    - *optional* [MCP3008] with [10]-bit resolution, 200ksps, 8-channel (shares Footprint with MCP3208)
+  -Current measurement
+    - [Shunt]
+      - [INA240]
+      - [MCP6002]
+      - [TLE]
 - **Firmware:**
   - Written in **C/C++** using [ESP-IDF]
   - Supports **SPI communication** and **PWM calibration**
